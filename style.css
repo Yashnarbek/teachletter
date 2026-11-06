@@ -349,6 +349,27 @@ h1 .b1 { color: var(--coral) } h1 .b2 { color: var(--sky) } h1 .b3 { color: var(
   .rec-row { grid-template-columns: minmax(0, 1fr) auto auto; }
   .rec-row .del { display: none; }
 }
+/* compact start screen */
+.start { gap: 12px; padding-top: 0; }
+.parade { font-size: clamp(26px, 4.5vw, 36px); gap: 6px; }
+h1 { font-size: clamp(38px, 7vw, 64px); }
+.lead { font-size: clamp(15px, 2.4vw, 18px); margin: -4px 0 0; }
+.levels.lessons { max-width: 760px; gap: 10px; margin-top: 2px; }
+.lesson { padding: 8px 6px 9px; border-radius: 18px; }
+.lesson .ico { font-size: clamp(26px, 4vw, 34px); }
+.lesson .rng { font-size: clamp(18px, 3vw, 24px); }
+.lesson .nm { font-size: 13px; }
+.lesson .done { font-size: 12px; top: 4px; right: 8px; }
+.level.all { padding: 8px 16px; border-radius: 18px; }
+.level.all .ico { font-size: 34px; }
+.level.all .rng { font-size: clamp(22px, 3.6vw, 30px); }
+.level.all .nm { font-size: 14px; }
+.small-toy { padding: 8px 16px; font-size: 15px; border-radius: 14px; }
+.start-btns { gap: 10px; }
+.shelf { max-width: 760px; padding: 10px 14px; border-radius: 20px; gap: 4px; }
+.shelf h3 { font-size: 18px; }
+.shelf-items { font-size: 28px; }
+.helpline { font-size: 13px; margin: 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
